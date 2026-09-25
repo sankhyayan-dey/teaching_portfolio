@@ -66,7 +66,7 @@ function App() {
 
             <div className="portrait-frame">
               <img
-                src="/profile.png"
+                src={`${import.meta.env.BASE_URL}profile.png`}
                 alt="Sankhyayan Dey"
               />
             </div>
